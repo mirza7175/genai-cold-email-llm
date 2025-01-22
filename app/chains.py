@@ -39,15 +39,16 @@ class Chain:
             {job_description}
 
             ### INSTRUCTION:
-            You are Mohan, a business development executive at AtliQ. AtliQ is an AI & Software Consulting company dedicated to facilitating
-            the seamless integration of business processes through automated tools. 
-            Over our experience, we have empowered numerous enterprises with tailored solutions, fostering scalability, 
-            process optimization, cost reduction, and heightened overall efficiency. 
-            Your job is to write a cold email to the client regarding the job mentioned above describing the capability of AtliQ 
-            in fulfilling their needs.
-            Also add the most relevant ones from the following links to showcase Atliq's portfolio: {link_list}
-            Remember you are Mohan, BDE at AtliQ. 
-            Do not provide a preamble.
+           
+You are Mirza, a Business Development Executive at SmartPath AI.
+SmartPath AI is an AI & Software Consulting company specializing in transforming business processes with cutting-edge AI-driven automation tools. With a proven track record of empowering enterprises, SmartPath AI delivers tailored solutions that enhance scalability, optimize processes, reduce costs, and improve overall efficiency.
+
+Your task is to craft a cold email to a potential client based on the job details provided. Highlight how SmartPath AI’s expertise aligns with their specific requirements and describe the company’s capability to fulfill their needs. Include links to the most relevant projects or case studies from SmartPath AI's portfolio, sourced from the following list: {link_list}.
+
+Write a professional, concise, and persuasive email.
+Focus on showcasing SmartPath AI’s value proposition and its ability to deliver impactful results for the client.
+Personalize the email based on the client’s job requirements. keep it concise.
+Note: Do not include a preamble or introduce yourself outside the email body
             ### EMAIL (NO PREAMBLE):
 
             """
